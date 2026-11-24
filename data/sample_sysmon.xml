@@ -1,0 +1,56 @@
+<Events>
+<!-- SAMPLE DATA: synthetic events written for the KeyGuard Lab demo. NOT observed on any real computer. -->
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>1</EventID><TimeCreated SystemTime="2026-11-15T09:00:01.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - synthetic</Data>
+    <Data Name="Image">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+    <Data Name="CommandLine">updater_svc.exe --quiet</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>7</EventID><TimeCreated SystemTime="2026-11-15T09:00:02.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - synthetic</Data>
+    <Data Name="Image">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+    <Data Name="ImageLoaded">C:\Windows\System32\hid.dll</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>13</EventID><TimeCreated SystemTime="2026-11-15T09:00:03.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - synthetic</Data>
+    <Data Name="Image">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+    <Data Name="TargetObject">HKU\S-1-5-21-0\Software\Microsoft\Windows\CurrentVersion\Run\Updater</Data>
+    <Data Name="Details">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>6</EventID><TimeCreated SystemTime="2026-11-15T09:00:04.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - synthetic</Data>
+    <Data Name="ImageLoaded">C:\Users\demo\AppData\Local\Temp\kbdfilter.sys</Data>
+    <Data Name="Signed">false</Data>
+    <Data Name="SignatureStatus">Unavailable</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>10</EventID><TimeCreated SystemTime="2026-11-15T09:00:05.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - synthetic</Data>
+    <Data Name="SourceImage">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+    <Data Name="Image">C:\Users\demo\AppData\Local\Temp\updater_svc.exe</Data>
+    <Data Name="TargetImage">C:\Windows\System32\lsass.exe</Data>
+    <Data Name="GrantedAccess">0x1010</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System><EventID>1</EventID><TimeCreated SystemTime="2026-11-15T09:05:00.000Z"/></System>
+  <EventData>
+    <Data Name="DataLabel">SAMPLE DATA - benign example (false-positive demo)</Data>
+    <Data Name="Image">C:\Users\demo\AppData\Local\Programs\Microsoft VS Code\Code.exe</Data>
+    <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+  </EventData>
+</Event>
+</Events>
